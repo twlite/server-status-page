@@ -6,7 +6,7 @@ import { useEffect } from "react";
 export async function getServerSideProps() {
 
     try {
-        const res = await fetch("http://localhost:3000/api/status");
+        const res = await fetch("https://bluefoxstatus.vercel.app/api/status");
         const json = await res.json();
 
         return {
