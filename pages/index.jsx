@@ -1,5 +1,7 @@
 import Home from "../components/Home";
 import Footer from "../components/Footer";
+import { useRouter } from 'next/router';
+import { useEffect } from "react";
 
 export async function getServerSideProps() {
 
@@ -25,6 +27,14 @@ export async function getServerSideProps() {
 }
 
 export default function index({ data = [], error = false }) {
+    const router = useRouter();
+
+    useEffect(() => {
+        setInterval(() => {
+            router.replace(router.asPath);
+        }, 15000);
+    }, []);
+
     return (
         <div className="__page__root__">
             <div className="jumbotron bg-dark text-white">
