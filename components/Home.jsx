@@ -8,7 +8,7 @@ export default function Home({ data = [], error = false }) {
             </div>
             <h1 className="text-center mt-4 textheader">BlueFoxHost - Status</h1>
             <div className="buttonsholder mt-2">
-                <a href="https://discord.gg/uqB8kxh" className="btn btn-lg btn-outline-primary buttons text-white">Discord</a>
+                <a href="https://discord.com/invite/AWZYysZ" className="btn btn-lg btn-outline-primary buttons text-white">Discord</a>
                 <a href="https://bluefoxhost.com" className="btn btn-lg btn-primary buttons">Website</a>
             </div>
             <div className="container mt-5">

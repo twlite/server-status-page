@@ -1,3 +1,5 @@
+/* TODO: Add more info */
+
 export default (eeq, res) => {
     return {
         name: "BlueFoxHost - Status",

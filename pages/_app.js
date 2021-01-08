@@ -5,18 +5,18 @@ export default function App({ Component, pageProps }) {
         <>
             <Head>
                 <meta name="twitter:card" content="summary" />
-                <meta name="twitter:url" content="https://status.bluefoxhost.com" />
+                <meta name="twitter:url" content="https://bluefoxstatus.vercel.app" />
                 <meta name="twitter:title" content="BlueFoxHost Status" />
                 <meta name="twitter:description" content="BlueFoxHost Status" />
-                <meta name="twitter:image" content="https://status.bluefoxhost.com/logo.jpg" />
+                <meta name="twitter:image" content="https://bluefoxstatus.vercel.app/logo.jpg" />
                 <meta name="twitter:creator" content="@Snowflake107" />
 
                 <meta property="og:type" content="website" />
                 <meta property="og:title" content="BlueFoxHost Status" />
                 <meta property="og:description" content="BlueFoxHost Status" />
                 <meta property="og:site_name" content="BlueFoxHost Status" />
-                <meta property="og:url" content="https://status.bluefoxhost.com" />
-                <meta property="og:image" content="https://status.bluefoxhost.com/logo.jpg" />
+                <meta property="og:url" content="https://bluefoxstatus.vercel.app" />
+                <meta property="og:image" content="https://bluefoxstatus.vercel.app/logo.jpg" />
 
                 <title>BlueFoxHost - Status</title>
 

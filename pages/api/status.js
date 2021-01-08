@@ -1,3 +1,5 @@
+/* TODO: Return actual status */
+
 export default (req, res) => {
     const pingTimestamp = new Date().toLocaleString();
 
